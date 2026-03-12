@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Task</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #007bff;
+            color: white;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+        }
+        input, textarea {
+            margin-bottom: 10px;
+            padding: 8px;
+        }
+        button {
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML TASK: Lists,Tables & Forms</h1>
+    <hr>
+    <h2>1. Create a List</h2>
+    <hr>
+    <p>Create an ordered list of <b>'Steps to Make a Sandewich':</b></p>
+
+    <ol>
+        <li>Gather Ingredients</li>
+        <li>Spread the Condiments</li>
+        <li>Add the Fillings</li>
+        <li>Put the Sandwich Together</li>
+    </ol>
+        <hr>
+    <h2>2. Build a Table</h2>
+    <hr>
+    <p>Create a table showing <b>'Student Grades':</b></p>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Subject</th>
+            <th>Grade</th>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Math</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td>Sarah</td>
+            <td>Science</td>
+            <td>B+</td>
+        </tr>
+        <tr>
+            <td>Mike</td>
+            <td>History</td>
+            <td>C</td>
+        </tr>
+    </table>
+    <hr>
+
+    <h2>3. Create a Form</h2>
+    <hr>
+    <p>Design a 'Contact Us' form with the following fields:</p>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea>
+
+        <button>Send Message</button>
+    </form>
+</body>
+</html>
